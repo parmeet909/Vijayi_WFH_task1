@@ -16,10 +16,15 @@ This project is part of an internship assignment by Vijayi WFH Technologies Pvt 
 File: ai_dev_assignment_tickets_complex_1000.xls
 
 Columns:
+
 ticket_id
+
 ticket_text
+
 issue_type (Label)
+
 urgency_level (Label)
+
 product (Used for entity validation)
 
 # ✅ Task Breakdown
