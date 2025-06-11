@@ -40,38 +40,61 @@ Tokenized, removed stopwords
 Lemmatized words using NLTK
 
 Extracted basic text features:
+
   Ticket length
+
   Sentiment score (TextBlob)
 
 🔹 2. **Feature Engineering**
+
 Used **TF-IDF** vectorization (max 1000 features)
+
 Combined with:
+
   Sentiment polarity
+  
   Text length
 
 **Feature Justification:**
+
 **TF-IDF** captures important words based on frequency
+
 **Sentiment polarity** adds emotional context
+
 **Text length** reflects issue detail complexity
 
 🔹 3. **Multi-Task Classification**
+
 **Models:** Random Forest Classifier
+
 **Tasks:**
+
   issue_type: multi-class
+  
   urgency_level: Low, Medium, High
 
 📊 **Evaluation:**
+
 Both models were evaluated using:
+
   Accuracy
+  
   Precision
+  
   Recall
+  
   F1-score
+  
   Confusion Matrix
 
 🔹 4. **Entity Extraction**
+
 Used rule-based methods to extract:
+
 **Product names** from known list
+
 **Dates** using regex pattern
+
 **Complaint keywords** (e.g., "broken", "error", "late", "missing")
 
 **Output format:**
