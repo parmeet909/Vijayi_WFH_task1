@@ -29,7 +29,7 @@ product (Used for entity validation)
 
 # ✅ Task Breakdown
 
- 1. **Data Preprocessing**
+**1. Data Preprocessing**
 
 Converted text to lowercase
 
@@ -45,7 +45,7 @@ Extracted basic text features:
 
   Sentiment score (TextBlob)
 
- 2. **Feature Engineering**
+**2. Feature Engineering**
 
 Used **TF-IDF** vectorization (max 1000 features)
 
@@ -63,7 +63,7 @@ Combined with:
 
 **Text length** reflects issue detail complexity
 
- 3. **Multi-Task Classification**
+**3. Multi-Task Classification**
 
 **Models:** Random Forest Classifier
 
@@ -87,7 +87,7 @@ Both models were evaluated using:
   
   Confusion Matrix
 
- 4. **Entity Extraction**
+**4. Entity Extraction**
 
 Used rule-based methods to extract:
 
@@ -109,8 +109,7 @@ Used rule-based methods to extract:
 
 }
 
- 5. **Integrated Inference Function**
-
+**5. Integrated Inference Function**
 
 def analyze_ticket(ticket_text):
 
@@ -132,7 +131,7 @@ def analyze_ticket(ticket_text):
         
     }
     
- 6. **Gradio App (Optional)**
+**6. Gradio App (Optional)**
 
 An interactive Gradio interface allows real-time predictions for new tickets.
 
