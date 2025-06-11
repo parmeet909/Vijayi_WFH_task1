@@ -1,6 +1,6 @@
 # Vijayi_WFH_task1
 
-**📌 Objective**
+# 📌 Objective
 This project is part of an internship assignment by Vijayi WFH Technologies Pvt Ltd (May–June 2025). The task involves developing a machine learning pipeline that:
 
 1. **Classifies** customer support tickets by:
@@ -12,7 +12,7 @@ This project is part of an internship assignment by Vijayi WFH Technologies Pvt 
    Dates
    Complaint-related keywords
 
-**# 📂 Dataset**
+# 📂 Dataset
 File: ai_dev_assignment_tickets_complex_1000.xls
 
 Columns:
@@ -22,7 +22,7 @@ issue_type (Label)
 urgency_level (Label)
 product (Used for entity validation)
 
-**✅ Task Breakdown**
+# ✅ Task Breakdown
 🔹 1. **Data Preprocessing**
 Converted text to lowercase
 Removed special characters and digits
