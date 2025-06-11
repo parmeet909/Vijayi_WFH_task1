@@ -28,11 +28,17 @@ urgency_level (Label)
 product (Used for entity validation)
 
 # ✅ Task Breakdown
+
 🔹 1. **Data Preprocessing**
+
 Converted text to lowercase
+
 Removed special characters and digits
+
 Tokenized, removed stopwords
+
 Lemmatized words using NLTK
+
 Extracted basic text features:
   Ticket length
   Sentiment score (TextBlob)
