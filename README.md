@@ -154,7 +154,7 @@ Limited generalization if vocabulary differs in new ticket types
 Only classical ML was used (no deep learning/transformers)
 
 # ▶️ Demo Video
-🔗 Google Drive Video Link (replace with your actual video link)
+🔗 Google Drive Video Link https://drive.google.com/file/d/1DCB32JdFGCWcjLUy9OaHPVcEFGPFPoBn/view?usp=sharing
 
 # 🗂️ Files Submitted
 
