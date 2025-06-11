@@ -4,10 +4,11 @@
 This project is part of an internship assignment by Vijayi WFH Technologies Pvt Ltd (May–June 2025). The task involves developing a machine learning pipeline that:
 
 1. **Classifies** customer support tickets by:
+   
    issue_type (multi-class)
    urgency_level (Low, Medium, High)
 
-2. **Extracts key entities** from ticket text:
+3. **Extracts key entities** from ticket text:
    Product names
    Dates
    Complaint-related keywords
